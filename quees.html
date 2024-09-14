@@ -18,10 +18,19 @@
 
 
         .center-images {
-    display: flex;          
-    justify-content: center;  
-    align-items: center;      
-    gap: 20px;                
+            display: flex;          
+            justify-content: center;  
+            align-items: center;      
+            gap: 20px;                
+}
+
+@media (max-width: 550px){
+    .center-images {
+    flex-direction: column;
+    align-items: center;
+  }
+    .center-image { width: 80%; }
+    
 }
 
     </style>
