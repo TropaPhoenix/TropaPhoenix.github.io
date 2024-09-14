@@ -40,3 +40,13 @@ section {
     border-radius: 10px; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+@media (max-width: 550px){
+    .center-image { width: 80%; }
+    
+}
